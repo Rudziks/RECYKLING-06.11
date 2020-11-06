@@ -1,0 +1,128 @@
+.grid-container {
+    display: grid;
+    background-color: green;
+}
+ 
+.grid-item {
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.menu{
+    grid-column: 1;
+    grid-row: 1/span 2;
+    border: solid green;   
+}
+
+.re-img{
+    grid-column: 2/span 3;
+    grid-row: 1/span 2;
+    border: solid green;
+}
+
+.CZYM-JEST-RECYKLING{
+    grid-column:1/span 2;
+    grid-row: 3/span 1;
+    border: solid green;
+}
+
+.CO-NAM-DAJE-RECYKLING{
+    grid-column:3/span 2;
+    grid-row:3/span 1 ;
+    border: solid green;
+}
+
+.galeria{
+    grid-column: 1/span 4;
+    grid-row:4/6;
+    border: solid green;
+}
+
+.JAK-RECYKLINGOWAC{
+    grid-column: 1/span 2;
+    grid-row: 10/span 1;
+    border: solid green;
+
+}
+
+.PORADNIK-JAK-SEGREGOWAC{
+    grid-column: 3/span 2;
+    grid-row: 10/span 1;
+    border: solid green;
+}
+
+
+
+.btn{
+    background-color: green;
+    width: 90%;
+    height: 20%;
+    font-size: 15px;
+}
+
+.img-re{
+    width: 1000px;
+    height: 800px;
+    grid-column: 3;
+    grid-row: 7;
+}
+
+.r1{
+    width: 400px;
+    height: 300px;
+}
+
+.r2{
+    width: 400px;
+    height: 300px;
+}
+
+.r3{
+    width: 400px;
+    height: 300px;
+}
+
+.r4{
+    width: 400px;
+    height: 300px;
+}
+.r5{
+    width: 400px;
+    height: 300px;
+}
+.r1-1{
+    width: 400px;
+    height: 300px;
+}
+
+.rr{
+    width: 400px;
+    height: 300px;
+}
+
+.r3-1{
+    width: 400px;
+    height: 300px;
+}
+
+.r4-1{
+    width: 400px;
+    height: 300px;
+}
+
+.r5-1{
+    width: 400px;
+    height: 300px;
+}
+
+.r1-2{
+    width: 400px;
+    height: 300px;
+}
+
+.r2-2{
+    width: 400px;
+    height: 300px;
+}
